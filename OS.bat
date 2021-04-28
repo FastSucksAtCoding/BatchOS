@@ -16,6 +16,7 @@ if %command%==ping goto png
 if %command%==vrsn goto vrsn 
 if %command%==lupd goto lupd 
 if %command%==reqo goto reqo
+if %command%==opnggl goto opnggl
 
 :help
 cls
@@ -24,12 +25,14 @@ echo png - ping an ip
 echo vrsn - shows version of BatchOS
 echo lupd - Last update
 echo reqo - BatchOS system requirements 
+echo opnggl - Open google.com
 set /p command1="Enter a command:"
 if %command1%==help goto help 
 if %command1%==ping goto png
 if %command1%==vrsn goto vrsn 
 if %command1%==lupd goto lupd 
 if %command1%==reqo goto reqo
+if %command1%==opnggl goto opnggl
 
 :png 
 cls
@@ -108,6 +111,7 @@ if %command2%==ping goto png
 if %command2%==vrsn goto vrsn 
 if %command2%==lupd goto lupd 
 if %command2%==reqo goto reqo
+if %command2%==opnggl goto opnggl
 
 :lupd 
 cls 
@@ -118,6 +122,7 @@ if %command3%==ping goto png
 if %command3%==vrsn goto vrsn 
 if %command3%==lupd goto lupd 
 if %command3%==reqo goto reqo
+if %command3%==opnggl goto opnggl
 
 :reqo 
 cls 
@@ -131,3 +136,35 @@ if %command4%==ping goto png
 if %command4%==vrsn goto vrsn 
 if %command4%==lupd goto lupd 
 if %command4%==reqo goto reqo
+if %command4%==opnggl goto opnggl
+
+:opnggl
+cls 
+echo Which browser do you use:
+echo 1) Firefox
+echo 2) Chrome 
+set /p browser="Enter a number:"
+if %browser%==1 goto opngglf
+if %browser%==2 goto opngglc
+
+:opngglf
+cls 
+firefox https://google.com/
+set /p command5="Enter a command:"
+if %command5%==help goto help 
+if %command5%==ping goto png
+if %command5%==vrsn goto vrsn 
+if %command5%==lupd goto lupd 
+if %command5%==reqo goto reqo
+if %command5%==opnggl goto opnggl
+
+:opngglc
+cls 
+chrome https://google.com/
+set /p command6="Enter a command:"
+if %command6%==help goto help 
+if %command6%==ping goto png
+if %command6%==vrsn goto vrsn 
+if %command6%==lupd goto lupd 
+if %command6%==reqo goto reqo
+if %command6%==opnggl goto opnggl
