@@ -20,6 +20,7 @@ if %command%==opnggl goto opnggl
 if %command%==exxt goto exxt
 if %command%==neofetch goto neofetch
 if %command%==ntpad goto ntpad 
+if %command%==hobs goto hobs
 
 :help
 cls
@@ -32,6 +33,7 @@ echo opnggl - Open google.com
 echo exxt - turns off BatchOS
 echo neofetch - Shows BatchOS information 
 echo ntpad - Open notepad 
+echo hobs - Hall of BatchOS
 set /p command1="Enter a command:"
 if %command1%==help goto help 
 if %command1%==ping goto png
@@ -41,7 +43,8 @@ if %command1%==reqo goto reqo
 if %command1%==opnggl goto opnggl
 if %command1%==exxt goto exxt
 if %command1%==neofetch goto neofetch
-if %command1%==ntpad goto ntpad 
+if %command1%==ntpad goto ntpad
+if %command1%==hobs goto hobs
 
 :png 
 cls
@@ -124,6 +127,7 @@ if %command2%==opnggl goto opnggl
 if %command2%==exxt goto exxt
 if %command2%==neofetch goto neofetch
 if %command2%==ntpad goto ntpad 
+if %command2%==hobs goto hobs
 
 :lupd 
 cls 
@@ -138,6 +142,7 @@ if %command3%==opnggl goto opnggl
 if %command3%==exxt goto exxt
 if %command3%==neofetch goto neofetch
 if %command3%==ntpad goto ntpad 
+if %command3%==hobs goto hobs
 
 :reqo 
 cls 
@@ -155,6 +160,7 @@ if %command4%==opnggl goto opnggl
 if %command4%==exxt goto exxt
 if %command4%==neofetch goto neofetch
 if %command4%==ntpad goto ntpad 
+if %command4%==hobs goto hobs
 
 :opnggl
 cls 
@@ -178,6 +184,7 @@ if %command5%==opnggl goto opnggl
 if %command5%==exxt goto exxt
 if %command5%==neofetch goto neofetch
 if %command5%==ntpad goto ntpad 
+if %command5%==hobs goto hobs
 
 :opngglc
 cls 
@@ -192,6 +199,7 @@ if %command6%==opnggl goto opnggl
 if %command6%==exxt goto exxt
 if %command6%==neofetch goto neofetch
 if %command6%==ntpad goto ntpad 
+if %command6%==hobs goto hobs
 
 :exxt
 exit 
@@ -219,6 +227,7 @@ if %command7%==opnggl goto opnggl
 if %command7%==exxt goto exxt
 if %command7%==neofetch goto neofetch
 if %command7%==ntpad goto ntpad 
+if %command7%==hobs goto hobs
 
 :ntpad
 cls 
@@ -233,3 +242,20 @@ if %command8%==opnggl goto opnggl
 if %command8%==exxt goto exxt
 if %command8%==neofetch goto neofetch
 if %command8%==ntpad goto ntpad 
+if %command8%==hobs goto hobs
+
+:hobs
+cls 
+echo [#RF]Nuy:batchos is superior
+echo [#RF]AndreDraggo:BatchOS grow your cock when you use it. My cock size now is 30inch thanks for using BatchOS. BatchOS is the best
+set /p command9="Enter a command:"
+if %command9%==help goto help 
+if %command9%==ping goto png
+if %command9%==vrsn goto vrsn 
+if %command9%==lupd goto lupd 
+if %command9%==reqo goto reqo
+if %command9%==opnggl goto opnggl
+if %command9%==exxt goto exxt
+if %command9%==neofetch goto neofetch
+if %command9%==ntpad goto ntpad 
+if %command9%==hobs goto hobs
