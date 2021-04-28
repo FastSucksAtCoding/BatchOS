@@ -248,6 +248,8 @@ if %command8%==hobs goto hobs
 cls 
 echo [#RF]Nuy:batchos is superior
 echo [#RF]AndreDraggo:BatchOS grow your cock when you use it. My cock size now is 30inch thanks for using BatchOS. BatchOS is the best
+echo [#RF]Jaw:The fact you did this is such a waste of time. I love it.
+echo [#RF]Burpingjimmy_Bot:@InfiniteOnTop I want you to expand on this project. I like it.
 set /p command9="Enter a command:"
 if %command9%==help goto help 
 if %command9%==ping goto png
