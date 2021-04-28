@@ -155,7 +155,7 @@ if %browser%==2 goto opngglc
 
 :opngglf
 cls 
-firefox https://google.com/
+>firefox https://google.com/
 set /p command5="Enter a command:"
 if %command5%==help goto help 
 if %command5%==ping goto png
@@ -167,7 +167,7 @@ if %command5%==exxt goto exxt
 
 :opngglc
 cls 
-chrome https://google.com/
+>chrome https://google.com/
 set /p command6="Enter a command:"
 if %command6%==help goto help 
 if %command6%==ping goto png
