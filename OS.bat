@@ -14,16 +14,22 @@ set /p command="Enter a command:"
 if %command%==help goto help 
 if %command%==ping goto png
 if %command%==vrsn goto vrsn 
+if %command%==lupd goto lupd 
+if %command%==reqo goto reqo
 
 :help
 cls
 echo help - shows this message 
 echo png - ping an ip
 echo vrsn - shows version of BatchOS
+echo lupd - Last update
+echo reqo - BatchOS system requirements 
 set /p command1="Enter a command:"
 if %command1%==help goto help 
 if %command1%==ping goto png
 if %command1%==vrsn goto vrsn 
+if %command1%==lupd goto lupd 
+if %command1%==reqo goto reqo
 
 :png 
 cls
@@ -100,3 +106,28 @@ set /p command2="Enter a command:"
 if %command2%==help goto help 
 if %command2%==ping goto png
 if %command2%==vrsn goto vrsn 
+if %command2%==lupd goto lupd 
+if %command2%==reqo goto reqo
+
+:lupd 
+cls 
+echo Last update was in 2021/05/01
+set /p command3="Enter a command:"
+if %command3%==help goto help 
+if %command3%==ping goto png
+if %command3%==vrsn goto vrsn 
+if %command3%==lupd goto lupd 
+if %command3%==reqo goto reqo
+
+:reqo 
+cls 
+echo - BatchOS system requirements -
+echo Ram: 16 mb 
+echo GPU: not required 
+echo CPU: Any 
+set /p command4="Enter a command:"
+if %command4%==help goto help 
+if %command4%==ping goto png
+if %command4%==vrsn goto vrsn 
+if %command4%==lupd goto lupd 
+if %command4%==reqo goto reqo
