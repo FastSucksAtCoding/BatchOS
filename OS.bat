@@ -12,7 +12,7 @@ echo ++ Welcome to BatchOS ++
 echo ::Type help to get command list::
 set /p command="Enter a command:"
 if %command%==help goto help 
-if %command%==ping goto png
+if %command%==png goto png
 if %command%==vrsn goto vrsn 
 if %command%==lupd goto lupd 
 if %command%==reqo goto reqo
@@ -36,7 +36,7 @@ echo ntpad - Open notepad
 echo hobs - Hall of BatchOS
 set /p command1="Enter a command:"
 if %command1%==help goto help 
-if %command1%==ping goto png
+if %command1%==png goto png
 if %command1%==vrsn goto vrsn 
 if %command1%==lupd goto lupd 
 if %command1%==reqo goto reqo
@@ -119,7 +119,7 @@ cls
 echo BatchOS version is 1.0
 set /p command2="Enter a command:"
 if %command2%==help goto help 
-if %command2%==ping goto png
+if %command2%==png goto png
 if %command2%==vrsn goto vrsn 
 if %command2%==lupd goto lupd 
 if %command2%==reqo goto reqo
@@ -134,7 +134,7 @@ cls
 echo Last update was in 2021/05/01
 set /p command3="Enter a command:"
 if %command3%==help goto help 
-if %command3%==ping goto png
+if %command3%==png goto png
 if %command3%==vrsn goto vrsn 
 if %command3%==lupd goto lupd 
 if %command3%==reqo goto reqo
@@ -152,7 +152,7 @@ echo GPU: not required
 echo CPU: Any 
 set /p command4="Enter a command:"
 if %command4%==help goto help 
-if %command4%==ping goto png
+if %command4%==png goto png
 if %command4%==vrsn goto vrsn 
 if %command4%==lupd goto lupd 
 if %command4%==reqo goto reqo
@@ -176,7 +176,7 @@ cls
 firefox https://google.com/
 set /p command5="Enter a command:"
 if %command5%==help goto help 
-if %command5%==ping goto png
+if %command5%==png goto png
 if %command5%==vrsn goto vrsn 
 if %command5%==lupd goto lupd 
 if %command5%==reqo goto reqo
@@ -191,7 +191,7 @@ cls
 chrome https://google.com/
 set /p command6="Enter a command:"
 if %command6%==help goto help 
-if %command6%==ping goto png
+if %command6%==png goto png
 if %command6%==vrsn goto vrsn 
 if %command6%==lupd goto lupd 
 if %command6%==reqo goto reqo
@@ -219,7 +219,7 @@ echo    yMo`         /NMs`
 echo    --            ./      
 set /p command7="Enter a command:"
 if %command7%==help goto help 
-if %command7%==ping goto png
+if %command7%==png goto png
 if %command7%==vrsn goto vrsn 
 if %command7%==lupd goto lupd 
 if %command7%==reqo goto reqo
@@ -234,7 +234,7 @@ cls
 notepad 
 set /p command8="Enter a command:"
 if %command8%==help goto help 
-if %command8%==ping goto png
+if %command8%==png goto png
 if %command8%==vrsn goto vrsn 
 if %command8%==lupd goto lupd 
 if %command8%==reqo goto reqo
@@ -250,9 +250,11 @@ echo [#RF]Nuy:batchos is superior
 echo [#RF]AndreDraggo:BatchOS grow your cock when you use it. My cock size now is 30inch thanks for using BatchOS. BatchOS is the best
 echo [#RF]Jaw:The fact you did this is such a waste of time. I love it.
 echo [#RF]Burpingjimmy_Bot:@InfiniteOnTop I want you to expand on this project. I like it.
+echo [#RF]Remax:this's how great ideas start
+echo [#RF] sanctuary:I just use BatchOS on an unhealthy scale.
 set /p command9="Enter a command:"
 if %command9%==help goto help 
-if %command9%==ping goto png
+if %command9%==png goto png
 if %command9%==vrsn goto vrsn 
 if %command9%==lupd goto lupd 
 if %command9%==reqo goto reqo
