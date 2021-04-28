@@ -12,3 +12,11 @@ echo ::Type help to get command list::
 echo Type a command:
 set /p command="Enter a command:"
 if %command%==help goto help 
+if %command%==ping goto ping
+
+:help
+cls
+echo help - shows this message 
+echo ping - ping an ip
+
+:ping 
