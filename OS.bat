@@ -19,6 +19,7 @@ if %command%==reqo goto reqo
 if %command%==opnggl goto opnggl
 if %command%==exxt goto exxt
 if %command%==neofetch goto neofetch
+if %command%==ntpad goto ntpad 
 
 :help
 cls
@@ -30,6 +31,7 @@ echo reqo - BatchOS system requirements
 echo opnggl - Open google.com
 echo exxt - turns off BatchOS
 echo neofetch - Shows BatchOS information 
+echo ntpad - Open notepad 
 set /p command1="Enter a command:"
 if %command1%==help goto help 
 if %command1%==ping goto png
@@ -39,6 +41,7 @@ if %command1%==reqo goto reqo
 if %command1%==opnggl goto opnggl
 if %command1%==exxt goto exxt
 if %command1%==neofetch goto neofetch
+if %command1%==ntpad goto ntpad 
 
 :png 
 cls
@@ -120,6 +123,7 @@ if %command2%==reqo goto reqo
 if %command2%==opnggl goto opnggl
 if %command2%==exxt goto exxt
 if %command2%==neofetch goto neofetch
+if %command2%==ntpad goto ntpad 
 
 :lupd 
 cls 
@@ -133,6 +137,7 @@ if %command3%==reqo goto reqo
 if %command3%==opnggl goto opnggl
 if %command3%==exxt goto exxt
 if %command3%==neofetch goto neofetch
+if %command3%==ntpad goto ntpad 
 
 :reqo 
 cls 
@@ -149,6 +154,7 @@ if %command4%==reqo goto reqo
 if %command4%==opnggl goto opnggl
 if %command4%==exxt goto exxt
 if %command4%==neofetch goto neofetch
+if %command4%==ntpad goto ntpad 
 
 :opnggl
 cls 
@@ -171,6 +177,7 @@ if %command5%==reqo goto reqo
 if %command5%==opnggl goto opnggl
 if %command5%==exxt goto exxt
 if %command5%==neofetch goto neofetch
+if %command5%==ntpad goto ntpad 
 
 :opngglc
 cls 
@@ -184,16 +191,17 @@ if %command6%==reqo goto reqo
 if %command6%==opnggl goto opnggl
 if %command6%==exxt goto exxt
 if %command6%==neofetch goto neofetch
+if %command6%==ntpad goto ntpad 
 
 :exxt
 exit 
 
 :neofetch
 cls
-echo  .h+.          .                    -- BatchOS --
-echo  -MMMy:`     .hMs.                  Distro: Batchy
-echo  +MMMMMNy-``+NMMMMy-`               Kernel: Micro
-echo  yMMMMMMMMmmMMMMMMMMh:              Version: 1.0
+echo  .h+.          .                   
+echo  -MMMy:`     .hMs.                  OS: BatchOS
+echo  +MMMMMNy-``+NMMMMy-`               Distro: Batchy 
+echo  yMMMMMMMMmmMMMMMMMMh:              Kernel: Micro
 echo  dMMMMMMMMMMMMMMMMMMMMh:`           BatchOS Download: https://github.com/fastsucksatcoding/BatchOS
 echo `MMMMMMMMMNNMMMMMMMMMMMN+           Theme: DefoBatch 
 echo -MMMMMMMMh..hMMMMMMMMMN+            
@@ -210,3 +218,18 @@ if %command7%==reqo goto reqo
 if %command7%==opnggl goto opnggl
 if %command7%==exxt goto exxt
 if %command7%==neofetch goto neofetch
+if %command7%==ntpad goto ntpad 
+
+:ntpad
+cls 
+notepad 
+set /p command8="Enter a command:"
+if %command8%==help goto help 
+if %command8%==ping goto png
+if %command8%==vrsn goto vrsn 
+if %command8%==lupd goto lupd 
+if %command8%==reqo goto reqo
+if %command8%==opnggl goto opnggl
+if %command8%==exxt goto exxt
+if %command8%==neofetch goto neofetch
+if %command8%==ntpad goto ntpad 
