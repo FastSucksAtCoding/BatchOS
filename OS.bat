@@ -17,6 +17,7 @@ if %command%==vrsn goto vrsn
 if %command%==lupd goto lupd 
 if %command%==reqo goto reqo
 if %command%==opnggl goto opnggl
+if %command%==exxt goto exxt
 
 :help
 cls
@@ -26,6 +27,7 @@ echo vrsn - shows version of BatchOS
 echo lupd - Last update
 echo reqo - BatchOS system requirements 
 echo opnggl - Open google.com
+echo exxt - turns off BatchOS
 set /p command1="Enter a command:"
 if %command1%==help goto help 
 if %command1%==ping goto png
@@ -33,6 +35,7 @@ if %command1%==vrsn goto vrsn
 if %command1%==lupd goto lupd 
 if %command1%==reqo goto reqo
 if %command1%==opnggl goto opnggl
+if %command1%==exxt goto exxt
 
 :png 
 cls
@@ -112,6 +115,7 @@ if %command2%==vrsn goto vrsn
 if %command2%==lupd goto lupd 
 if %command2%==reqo goto reqo
 if %command2%==opnggl goto opnggl
+if %command2%==exxt goto exxt
 
 :lupd 
 cls 
@@ -123,6 +127,7 @@ if %command3%==vrsn goto vrsn
 if %command3%==lupd goto lupd 
 if %command3%==reqo goto reqo
 if %command3%==opnggl goto opnggl
+if %command3%==exxt goto exxt
 
 :reqo 
 cls 
@@ -137,6 +142,7 @@ if %command4%==vrsn goto vrsn
 if %command4%==lupd goto lupd 
 if %command4%==reqo goto reqo
 if %command4%==opnggl goto opnggl
+if %command4%==exxt goto exxt
 
 :opnggl
 cls 
@@ -157,6 +163,7 @@ if %command5%==vrsn goto vrsn
 if %command5%==lupd goto lupd 
 if %command5%==reqo goto reqo
 if %command5%==opnggl goto opnggl
+if %command5%==exxt goto exxt
 
 :opngglc
 cls 
@@ -168,3 +175,7 @@ if %command6%==vrsn goto vrsn
 if %command6%==lupd goto lupd 
 if %command6%==reqo goto reqo
 if %command6%==opnggl goto opnggl
+if %command6%==exxt goto exxt
+
+:exxt
+exit 
