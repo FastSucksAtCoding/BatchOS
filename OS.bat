@@ -251,7 +251,8 @@ echo [#RF]AndreDraggo:BatchOS grow your cock when you use it. My cock size now i
 echo [#RF]Jaw:The fact you did this is such a waste of time. I love it.
 echo [#RF]Burpingjimmy_Bot:@InfiniteOnTop I want you to expand on this project. I like it.
 echo [#RF]Remax:this's how great ideas start
-echo [#RF] sanctuary:I just use BatchOS on an unhealthy scale.
+echo [#RF]sanctuary:I just use BatchOS on an unhealthy scale.
+echo [#RF]slut:nice boobs
 set /p command9="Enter a command:"
 if %command9%==help goto help 
 if %command9%==png goto png
